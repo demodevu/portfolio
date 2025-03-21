@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bold Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#achieved">Achievements</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="bannreSec" id="banner">
+        <div class="overlay"></div>
+        <h2>Hello, I'm Uttam</h2>
+        <p class="typing-container">
+            <span id="typed-text"></span>
+            <span class="cursor">|</span>
+        </p>
+        <a class="project-button" href="#projects">View My Projects</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2 class="os-title"><strong>About Me</strong></h2>
+        <div class="about-container">
+            <img src="profile.png" alt="Profile Picture" class="profile-img">
+            <div class="about-text">
+                <p>
+                    I’m a <strong>software developer</strong> and <strong>e-commerce expert</strong> with extensive experience in building <strong>Shopify solutions</strong>. Having successfully completed <strong>75+ Shopify eCommerce projects</strong>, I specialize in <strong>custom Shopify development</strong> and delivering tailored solutions to merchants.  
+                </p>
+                <p>
+                    I provide <strong>custom Shopify apps</strong> using <strong>PHP (MySQLi)</strong>, <strong>Node.js</strong>, <strong>React</strong>, and <strong>MongoDB</strong>. Additionally, I have expertise in building high-performance <strong>Remix-based Shopify apps</strong> and am proficient in <strong>Laravel</strong> for backend development.  
+                </p>
+                <p>
+                    My skill set includes <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>jQuery</strong>, <strong>AJAX</strong>, <strong>Bootstrap</strong>, <strong>PHP</strong>, <strong>GraphQL</strong>, <strong>REST API</strong>, <strong>WordPress</strong>, and version control with <strong>Git</strong>. I’m passionate about creating scalable and user-friendly web applications that drive success for businesses.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="skills">
+        <h2 class="os-title">Technical Skills</h2>
+        <ul class="skills-list"></ul>
+    </section>
+  
+    <!-- Achievements Section -->
+    <section id="achieved">
+        <h2 class="os-title">Professional Achievements</h2>
+        <div class="achieve-stats">
+            <div class="stat">
+                <span class="count" data-target="75">0</span>
+                <p>Shopify Merchants Served</p>
+            </div>
+            <div class="stat">
+                <span class="count" data-target="15">0</span>
+                <p>Full-Stack Projects Completed</p>
+            </div>
+            <div class="stat">
+                <span class="count" data-target="3">0</span>
+                <p>Open-Source Contributions</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="os-title">My Development Base</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Shopify Theme Customization</h3>
+                <p>Customized and optimized <strong>Shopify themes</strong> to enhance store design and functionality using <strong>Liquid</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</p>
+            </div>
+            <div class="project-card">
+                <h3>Shopify PHP-Based App (PHP & MySQLi)</h3>
+                <p>Developed a <strong>Shopify App</strong> with <strong>PHP</strong> and <strong>MySQLi</strong>, integrating secure APIs and merchant tools.</p>
+            </div>
+            <div class="project-card">
+                <h3>Shopify Remix-Based App (Node.js & React)</h3>
+                <p>Built a high-performance <strong>Shopify app</strong> using <strong>Remix</strong>, <strong>React</strong>, and <strong>Node.js</strong> for seamless store integration.</p>
+            </div>
+            <div class="project-card">
+                <h3>Laravel Custom API Development</h3>
+                <p>Developed scalable and secure <strong>REST APIs</strong> with <strong>Laravel</strong>, optimizing data handling for web applications.</p>
+            </div>
+            <div class="project-card">
+                <h3>PHP E-Commerce & Website Development</h3>
+                <p>Designed and developed custom <strong>e-commerce</strong> and business websites using <strong>PHP</strong>, <strong>MySQL</strong>, and <strong>Bootstrap</strong>.</p>
+            </div>
+            <div class="project-card">
+                <h3>Node-React Based Project</h3>
+                <p>Designed and developed a custom <strong>Student Management</strong> system and business websites using <strong>PHP</strong>, <strong>MySQL</strong>, and <strong>Bootstrap</strong>.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="os-title">Skill Details</h2>
+        <div class="skills-container">
+            <ul id="skills-list-all"></ul>
+        </div>
+        <button class="show-more-btn" id="showMoreAllBtn">Show More</button>
+    </section>
+
+
+
+<!-- Live Shopify Websites Section -->
+<section id="live-websites">
+    <h2 class="os-title">Live Shopify Websites</h2>
+    <div class="website-container">
+        <div class="website-card">
+            <img src="https://picsum.photos/300/200" alt="Liori Diamonds">
+            <div class="website-info">
+                <h3>Liori Diamonds</h3>
+                <p>Luxury diamond jewelry store with premium designs.</p>
+            </div>
+            <a href="https://lioridiamonds.com/" target="_blank">Visit Site</a>
+        </div>
+
+        <div class="website-card">
+            <img src="https://picsum.photos/300/200" alt="Bear Hug">
+            <div class="website-info">
+                <h3>Bear Hug</h3>
+                <p>Comfortable and stylish loungewear for all.</p>
+            </div>
+            <a href="https://bearhug.com/" target="_blank">Visit Site</a>
+        </div>
+
+        <div class="website-card">
+            <img src="https://picsum.photos/300/200" alt="Muir Skate">
+            <div class="website-info">
+                <h3>Muir Skate</h3>
+                <p>High-quality skateboards and accessories.</p>
+            </div>
+            <a href="https://www.muirskate.com/" target="_blank">Visit Site</a>
+        </div>
+
+        <div class="website-card">
+            <img src="https://picsum.photos/300/200" alt="Wear Spree">
+            <div class="website-info">
+                <h3>Wear Spree</h3>
+                <p>Trendy and fashionable apparel for every season.</p>
+            </div>
+            <a href="https://www.wearspree.com/" target="_blank">Visit Site</a>
+        </div>
+
+        <div class="website-card">
+            <img src="https://picsum.photos/300/200" alt="POFL Cleaner">
+            <div class="website-info">
+                <h3>POFL Cleaner</h3>
+                <p>Eco-friendly cleaning solutions for a greener world.</p>
+            </div>
+            <a href="https://www.poflcleaner.com/" target="_blank">Visit Site</a>
+        </div>
+
+        <div class="website-card">
+            <img src="https://picsum.photos/300/200" alt="The Denim Club">
+            <div class="website-info">
+                <h3>The Denim Club</h3>
+                <p>Exclusive denim collections for men and women.</p>
+            </div>
+            <a href="https://www.thedenimclub.co.uk/" target="_blank">Visit Site</a>
+        </div>
+    </div>
+    
+    <!-- Hidden Websites -->
+    
+        
+<div class="hidden-websites" style="display: none;">
+        <div class="website-card">
+            <img src="https://picsum.photos/300/200" alt="VitaChow Dog Food">
+            <div class="website-info">
+                <h3>VitaChow Dog Food</h3>
+                <p>Healthy and nutritious food for your furry friends.</p>
+            </div>
+            <a href="https://vitachowdogfood.com/" target="_blank">Visit Site</a>
+        </div>
+
+        <div class="website-card">
+            <img src="https://picsum.photos/300/200" alt="Meet Notable">
+            <div class="website-info">
+                <h3>Meet Notable</h3>
+                <p>Personalized gifts and accessories for every occasion.</p>
+            </div>
+            <a href="https://meetnotable.com/" target="_blank">Visit Site</a>
+        </div>
+
+        <div class="website-card">
+            <img src="https://picsum.photos/300/200" alt="Bluu Wash">
+            <div class="website-info">
+                <h3>Bluu Wash</h3>
+                <p>Innovative laundry detergent sheets for easy washing.</p>
+            </div>
+            <a href="https://www.bluuwash.com/" target="_blank">Visit Site</a>
+        </div>
+    </div>
+    
+    <!-- Show More Button -->
+    <button class="show-more-btn" id="showMoreBtn">Show More</button>
+</section>
+
+    <!-- Footer Section -->
+    <footer>
+        <h2>Contact Information</h2>
+        <p>© 2025 Uttam. All rights reserved.</p>
+        <p>Contact: <a href="mailto:uttamkumar28december@gmail.com">uttamkumar28december@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
