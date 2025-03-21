@@ -123,6 +123,7 @@ const myskills = [
     { name: "Git", icon: "fa-brands fa-git-alt", percentage: 90 }
 ];
 
+
 const skillsList = document.getElementById("skills-list-all");
 const showMoreAllBtn = document.getElementById("showMoreAllBtn");
 
